@@ -10,5 +10,19 @@ public class Rebot {
 		
 		direction.setOngle(x);
 	}
+   public int cordx() {
+	  return  position.getX();
+	   
+   }
 
+   public int cordy() {
+		  return  position.getY();
+	
+   }
+		  public void setX(int x) {
+				position.x = x;
+			}
+		  public void sety(int y) {
+				position.y = y;
+			}
 }
