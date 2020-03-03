@@ -1,7 +1,7 @@
 package uvsq21807569.exo3_3;
 
 public class Direction {
-	private float ongle ;
+	public float ongle ;
 
 	public Direction(float ongle) {
 		super();
@@ -12,6 +12,12 @@ public class Direction {
 	public String toString() {
 		return "Direction [ongle=" + ongle + "]";
 	}
+
+	public void setOngle(float x) {
+		ongle=x ;		
+	}
+
+	
 	
 
 }

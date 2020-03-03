@@ -5,6 +5,10 @@ public class Rebot {
 	private Direction direction ;
 	
 	
-	
+	public void tourner(float x) {
+		System.out.println("tourner d'un ongle  "+x);
+		
+		direction.setOngle(x);
+	}
 
 }
