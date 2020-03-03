@@ -5,11 +5,23 @@ public class Rebot {
 	private Direction direction ;
 	
 	
+	
+	public Rebot(Position position, Direction direction) {
+		super();
+		this.position = position;
+		this.direction = direction;
+	}
 	public void tourner(float x) {
 		System.out.println("tourner d'un ongle  "+x);
 		
 		direction.setOngle(x);
 	}
+	
+	public float getongle() {
+		return direction.getOngle();
+	}
+	
+	
    public int cordx() {
 	  return  position.getX();
 	   

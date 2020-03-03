@@ -17,6 +17,12 @@ public class Direction {
 		ongle=x ;		
 	}
 
+	public float getOngle() {
+		return ongle;
+	}
+	
+	
+
 	
 	
 
